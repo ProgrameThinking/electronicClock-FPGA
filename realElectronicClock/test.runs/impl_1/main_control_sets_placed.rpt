@@ -1,0 +1,175 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  7 15:10:49 2023
+| Host         : DESKTOP-NE0C9A6 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   107 |
+| Unused register locations in slices containing registers |   573 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              93 |           33 |
+| No           | No                    | Yes                    |              86 |           49 |
+| No           | Yes                   | No                     |             290 |           94 |
+| Yes          | No                    | No                     |              17 |            5 |
+| Yes          | No                    | Yes                    |              23 |           18 |
+| Yes          | Yes                   | No                     |              22 |            6 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------+-----------------------------+------------------------------+------------------+----------------+
+|           Clock Signal          |        Enable Signal        |       Set/Reset Signal       | Slice Load Count | Bel Load Count |
++---------------------------------+-----------------------------+------------------------------+------------------+----------------+
+|  u9/minc                        |                             | u5/temphour0_reg[1]_C        |                1 |              1 |
+|  u9/minc                        |                             | u5/temphour1_reg[2]_C        |                1 |              1 |
+|  u9/minc                        |                             | u5/temphour0_reg[0]_C        |                1 |              1 |
+|  u9/minc                        |                             | u5/temphour0_reg[1]_P        |                1 |              1 |
+|  u9/minc                        |                             | u5/temphour0_reg[3]_P        |                1 |              1 |
+|  u9/minc                        |                             | u5/temphour1_reg[0]_C        |                1 |              1 |
+|  u9/minc                        |                             | u5/temphour1_reg[1]_C        |                1 |              1 |
+|  u9/minc                        |                             | u5/temphour0_reg[3]_C        |                1 |              1 |
+|  u9/minc                        |                             | u5/temphour1_reg[3]_C        |                1 |              1 |
+|  u9/minc                        |                             | u5/temphour0_reg[2]_P        |                1 |              1 |
+|  u9/minc                        |                             | u5/temphour0_reg[0]_P        |                1 |              1 |
+|  u9/minc                        |                             | u5/temphour0_reg[2]_C        |                1 |              1 |
+|  u9/minc                        | u12/temphour1[3]_P_i_1_n_1  | u5/temphour1_reg[3]_P_0      |                1 |              1 |
+|  u9/minc                        | u12/temphour1[3]_P_i_1_n_1  | u5/temphour1_reg[2]_P        |                1 |              1 |
+|  u9/minc                        | u12/temphour1[3]_P_i_1_n_1  | u5/temphour1_reg[0]_P        |                1 |              1 |
+|  u9/minc                        | u12/temphour1[3]_P_i_1_n_1  | u5/temphour1_reg[1]_P        |                1 |              1 |
+|  u9/secc                        |                             | u5/tempmin0_reg[0]_C         |                1 |              1 |
+|  u9/secc                        |                             | u5/tempmin0_reg[2]_P         |                1 |              1 |
+|  u9/secc                        |                             | u5/tempmin0_reg[3]_C         |                1 |              1 |
+|  u9/secc                        |                             | u5/tempmin1_reg[1]_C         |                1 |              1 |
+|  u9/secc                        |                             | u5/tempmin1_reg[2]_C         |                1 |              1 |
+|  u9/secc                        |                             | u5/tempmin1_reg[3]_C         |                1 |              1 |
+|  u9/secc                        |                             | u5/tempmin1_reg[0]_C         |                1 |              1 |
+|  u9/secc                        |                             | u5/tempmin0_reg[0]_P         |                1 |              1 |
+|  u9/secc                        |                             | u5/tempmin0_reg[1]_C         |                1 |              1 |
+|  u9/secc                        |                             | u5/tempmin0_reg[2]_C         |                1 |              1 |
+|  u9/secc                        |                             | u5/tempmin0_reg[3]_P         |                1 |              1 |
+|  u9/secc                        |                             | u5/tempmin0_reg[1]_P         |                1 |              1 |
+|  u9/secc                        | u10/eqOp                    | u5/tempmin1_reg[0]_P         |                1 |              1 |
+|  u9/secc                        | u10/eqOp                    | u5/tempmin1_reg[1]_P         |                1 |              1 |
+|  u9/secc                        | u10/eqOp                    | u5/tempmin1_reg[2]_P         |                1 |              1 |
+|  u9/secc                        | u10/eqOp                    | u5/tempmin1_reg[3]_P         |                1 |              1 |
+|  u2/oneHz                       |                             | u5/tempsec0_reg[1]_C         |                1 |              1 |
+|  u2/oneHz                       |                             | u5/tempsec0_reg[2]_C         |                1 |              1 |
+|  u2/oneHz                       |                             | u5/tempsec0_reg[0]_C         |                1 |              1 |
+|  u2/oneHz                       |                             | u5/tempsec1_reg[1]_C         |                1 |              1 |
+|  u2/oneHz                       |                             | u5/tempsec0_reg[3]_C         |                1 |              1 |
+|  u2/oneHz                       |                             | u5/tempsec1_reg[2]_C         |                1 |              1 |
+|  u2/oneHz                       |                             | u5/tempsec1_reg[0]_C         |                1 |              1 |
+|  u2/oneHz                       |                             | u5/tempsec1_reg[3]_C         |                1 |              1 |
+|  u5/tempmin1_reg[2]_P           |                             | u5/tempmin1_reg[2]_C         |                1 |              1 |
+|  u2/oneHz                       | u9/tempsec0[3]_P_i_1_n_1    | u5/tempsec0_reg[1]_P         |                1 |              1 |
+|  u2/oneHz                       | u9/tempsec0[3]_P_i_1_n_1    | u5/tempsec0_reg[0]_P         |                1 |              1 |
+|  u2/oneHz                       | u9/tempsec0[3]_P_i_1_n_1    | u5/tempsec0_reg[2]_P         |                1 |              1 |
+|  u2/oneHz                       | u9/tempsec0[3]_P_i_1_n_1    | u5/tempsec0_reg[3]_P         |                1 |              1 |
+|  u2/oneHz                       | u9/tempsec1[3]_P_i_1_n_1    | u5/tempsec1_reg[3]_P         |                1 |              1 |
+|  u2/oneHz                       | u9/tempsec1[3]_P_i_1_n_1    | u5/tempsec1_reg[2]_P         |                1 |              1 |
+|  u2/oneHz                       | u9/tempsec1[3]_P_i_1_n_1    | u5/tempsec1_reg[1]_P         |                1 |              1 |
+|  u2/oneHz                       | u9/tempsec1[3]_P_i_1_n_1    | u5/tempsec1_reg[0]_P         |                1 |              1 |
+|  u5/temphour1_reg[3]_P_0        |                             | u5/temphour1_reg[3]_C        |                1 |              1 |
+|  u5/tempmin0_reg[2]_P           |                             | u5/tempmin0_reg[2]_C         |                1 |              1 |
+|  u5/tempmin1_reg[0]_P           |                             | u5/tempmin1_reg[0]_C         |                1 |              1 |
+|  u5/tempmin1_reg[1]_P           |                             | u5/tempmin1_reg[1]_C         |                1 |              1 |
+|  u5/temphour1_reg[1]_P          |                             | u5/temphour1_reg[1]_C        |                1 |              1 |
+|  u5/tempsec0_reg[1]_P           |                             | u5/tempsec0_reg[1]_C         |                1 |              1 |
+|  u5/temphour0_reg[1]_P          |                             | u5/temphour0_reg[1]_C        |                1 |              1 |
+|  u5/temphour0_reg[3]_P          |                             | u5/temphour0_reg[3]_C        |                1 |              1 |
+|  u5/tempmin0_reg[0]_P           |                             | u5/tempmin0_reg[0]_C         |                1 |              1 |
+|  u5/tempmin0_reg[3]_P           |                             | u5/tempmin0_reg[3]_C         |                1 |              1 |
+|  u5/temphour1_reg[2]_P          |                             | u5/temphour1_reg[2]_C        |                1 |              1 |
+|  u5/tempsec0_reg[0]_P           |                             | u5/tempsec0_reg[0]_C         |                1 |              1 |
+|  u5/tempmin1_reg[3]_P           |                             | u5/tempmin1_reg[3]_C         |                1 |              1 |
+|  u5/temphour0_reg[2]_P          |                             | u5/temphour0_reg[2]_C        |                1 |              1 |
+|  u5/tempmin0_reg[1]_P           |                             | u5/tempmin0_reg[1]_C         |                1 |              1 |
+|  u5/temphour0_reg[0]_P          |                             | u5/temphour0_reg[0]_C        |                1 |              1 |
+|  u5/temphour1_reg[0]_P          |                             | u5/temphour1_reg[0]_C        |                1 |              1 |
+|  u5/tempsec0_reg[2]_P           |                             | u5/tempsec0_reg[2]_C         |                1 |              1 |
+|  u5/tempsec1_reg[3]_P           |                             | u5/tempsec1_reg[3]_C         |                1 |              1 |
+|  u5/tempsec1_reg[2]_P           |                             | u5/tempsec1_reg[2]_C         |                1 |              1 |
+|  u5/tempsec1_reg[1]_P           |                             | u5/tempsec1_reg[1]_C         |                1 |              1 |
+|  u5/tempsec1_reg[0]_P           |                             | u5/tempsec1_reg[0]_C         |                1 |              1 |
+|  u5/tempsec0_reg[3]_P           |                             | u5/tempsec0_reg[3]_C         |                1 |              1 |
+|  u2/oneHz                       |                             |                              |                1 |              1 |
+|  u22/CLK                        |                             |                              |                2 |              2 |
+|  u7/tempmin0_reg[3]_P[0]        |                             |                              |                1 |              4 |
+|  u5/temphour1_reg[3]_P[0]       |                             |                              |                1 |              4 |
+|  u7/tempsec1_reg[3]_P[0]        |                             |                              |                1 |              4 |
+|  u7/tempsec0_reg[3]_P[0]        |                             |                              |                2 |              4 |
+|  u7/tempmin1_reg[3]_P[0]        |                             |                              |                1 |              4 |
+|  u7/temphour0_reg[3]_P[0]       |                             |                              |                1 |              4 |
+|  u20/fourThousandHz             |                             |                              |                2 |              5 |
+|  u20/fourThousandHz             | u5/E[0]                     | u66/q80_n_1                  |                2 |              5 |
+|  u22/CLK                        |                             | clear_IBUF                   |                2 |              6 |
+|  n_0_418_BUFG                   |                             |                              |                2 |              7 |
+|  n_0_418_BUFG                   |                             | u7/AS[0]                     |                2 |              7 |
+|  n_0_418_BUFG                   |                             | u7/output[0]_2[0]            |                2 |              7 |
+|  n_0_418_BUFG                   |                             | u7/output[0]_3[0]            |                3 |              7 |
+|  n_0_418_BUFG                   |                             | u7/output[0][0]              |                2 |              7 |
+|  n_0_418_BUFG                   |                             | u7/output[0]_0[0]            |                2 |              7 |
+|  n_0_418_BUFG                   |                             | u7/output[0]_1[0]            |                3 |              7 |
+|  u115/tempoutput_reg[6]_i_2_n_1 |                             |                              |                2 |              7 |
+|  stdclk_IBUF_BUFG               |                             |                              |                5 |              7 |
+|  u8/fiveHz                      | u66/tempoutputchoose_reg[1] | u7/tempoutputchoose_reg[1]_0 |                2 |              7 |
+|  u20/fourThousandHz             | u115/__0/i__n_1             |                              |                2 |              8 |
+|  u20/fourThousandHz             | u115/__0/i__n_1             | u115/tempwhich[7]_i_1_n_1    |                2 |              8 |
+|  u22/CLK                        | u5/krow[3]_i_1_n_1          |                              |                3 |              9 |
+|  u22/CLK                        | u10/E[0]                    | u10/SR[0]                    |                2 |              9 |
+|  u66/cnt_0_reg[0][0]            |                             |                              |                4 |             16 |
+|  settimemodel_BUFG              |                             |                              |                8 |             24 |
+|  stdclk_IBUF_BUFG               |                             | u22/clear                    |                8 |             32 |
+|  stdclk_IBUF_BUFG               |                             | u20/clear                    |                8 |             32 |
+|  stdclk_IBUF_BUFG               |                             | u8/clear                     |                8 |             32 |
+|  stdclk_IBUF_BUFG               |                             | u2/clear                     |                8 |             32 |
+|  stdclk_IBUF_BUFG               |                             | u50/u2/cnt0_carry__1_n_2     |                8 |             32 |
+|  stdclk_IBUF_BUFG               |                             | u50/u1/clear                 |                8 |             32 |
+|  stdclk_IBUF_BUFG               |                             | u55/clear                    |                8 |             32 |
+|  u55/CLK_BUFG                   |                             | u7/tempoutputchoose_reg[1]_0 |               15 |             48 |
++---------------------------------+-----------------------------+------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                    73 |
+| 2      |                     1 |
+| 4      |                     6 |
+| 5      |                     2 |
+| 6      |                     1 |
+| 7      |                    10 |
+| 8      |                     2 |
+| 9      |                     2 |
+| 16+    |                    10 |
++--------+-----------------------+
+
+

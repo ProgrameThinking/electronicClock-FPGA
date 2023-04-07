@@ -1,0 +1,20 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../test.srcs/sources_1/new/alarmbi.vhd" \
+"../../../../../main/main.srcs/sources_1/new/bit_trans_mos.vhd" \
+"../../../../test.srcs/sources_1/new/blzzer.vhd" \
+"../../../../../main/main.srcs/sources_1/new/choosebit.vhd" \
+"../../../../../main/main.srcs/sources_1/new/choosemodel.vhd" \
+"../../../../../main/main.srcs/sources_1/new/divider.vhd" \
+"../../../../../main/main.srcs/sources_1/new/hourcounter.vhd" \
+"../../../../test.srcs/sources_1/new/hourlybi.vhd" \
+"../../../../../main/main.srcs/sources_1/new/inputbit.vhd" \
+"../../../../test.srcs/sources_1/new/main.vhd" \
+"../../../../../main/main.srcs/sources_1/new/martixinput.vhd" \
+"../../../../../main/main.srcs/sources_1/new/mincounter.vhd" \
+"../../../../../main/main.srcs/sources_1/new/seccounter.vhd" \
+"../../../../../main/main.srcs/sources_1/new/show_mos.vhd" \
+"../../../../test.srcs/sim_1/new/choosebit_tb.vhd" \
+
+# Do not sort compile order
+nosort

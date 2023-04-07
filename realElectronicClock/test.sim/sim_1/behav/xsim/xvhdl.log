@@ -1,0 +1,20 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/project/electronic/test/test.srcs/sources_1/new/alarmbi.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity alarmbi
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/project/electronic/test/test.srcs/sources_1/new/blzzer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity blzzer
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/project/electronic/main/main.srcs/sources_1/new/choosebit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity choosebit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/project/electronic/main/main.srcs/sources_1/new/hourcounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity hourcounter
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/project/electronic/test/test.srcs/sources_1/new/hourlybi.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity hourlybi
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/project/electronic/main/main.srcs/sources_1/new/inputbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity inputbit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/project/electronic/test/test.srcs/sources_1/new/main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity main
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/project/electronic/main/main.srcs/sources_1/new/martixinput.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity martixInput
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/project/electronic/main/main.srcs/sources_1/new/mincounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mincounter
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/project/electronic/main/main.srcs/sources_1/new/seccounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity seccounter
